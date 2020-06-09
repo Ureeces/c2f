@@ -1,7 +1,16 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+let celsius = getInput(0);
 
+function celsiusToFahrenheit(d) {
+  return d * 1.8 + 32;
+}
+
+let fahrenheit = celsiusToFahrenheit(celsius);
+let msg = celsius + ' degrees Celsius is ' + fahrenheit + ' degrees in Fahrenheit.';
+
+console.log(msg);
 
 
 
